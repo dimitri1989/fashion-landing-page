@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background: url(bg.png);
+    background-position:center top, right top, center bottom;
+	background-repeat:no-repeat, repeat-x, repeat-y;
+  background-size:cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+body{
+ 
+    background:url(s.png);
+    background-repeat:no-repeat;
+    background-position: center top;
+    height: 90vh;
+   
+}
+.container-landing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+}
+.top-img{
+    margin-left: 24px;
+    margin-top: 21px;
+}
+.container-landing__h3{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.8816px;
+    line-height: 49px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0;
+}
+.container-landing__center{
+   text-align: center;
+}
+.container-landing__soon{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 95px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.container-landing__s{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    justify-content: center;
+}
+.container-landing__text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.container-landing__bottom{
+    text-align: center;
+}
+input{
+    width: 279px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+}
+input[type=text]{
+    padding-left: 14px;
+    outline: none;
+}
+#btn{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+width: 123px;
+height: 44px;
+border: 1px solid #FFFFFF;
+background:none;
+}
+.social {
+    margin-top: 65px;  
+}
+.social img{
+    margin-right: 24px;  
+}
+.hide2{
+    display: none;
+}
